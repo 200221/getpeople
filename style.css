@@ -1,0 +1,32 @@
+#sponsors{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  	background-color: #5c5b5b;
+	background-size: cover;
+	box-sizing: border-box;
+	border-style: solid;
+}
+.image img {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 100px; /*кругле зображення*/
+}
+.facebook a {
+    color: #999999;
+    text-align: center;   
+}
+.position{
+	color: khaki;
+	word-spacing: 5 px;
+}
+.name{
+	color:blue;
+	border-style: solid;
+	font-style: oblique; /* наклонный текст*/
+	word-spacing: 5 px;
+}
